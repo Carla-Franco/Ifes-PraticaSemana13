@@ -52,7 +52,7 @@ function excluir_maquiagem(codigo) {
 
 function listar_maquiagem() {
     array_maquiagens.forEach(maquiagem => {
-        console.log(maquiagem);
+        console.log(maquiagem.codigo + ": " + maquiagem.produto + " - " + maquiagem.tipo + " - " + maquiagem.uso + " - " + maquiagem.indicacao); 
     })
 }
 
